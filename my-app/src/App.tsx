@@ -1,5 +1,7 @@
 import React from 'react';
+import 'reset-css';
 import { TopNav } from './components/TopNav/TopNav';
+
 
 function App() {
   return (
