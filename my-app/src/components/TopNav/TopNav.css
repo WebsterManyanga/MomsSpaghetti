@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+.top-nav {
+  display: flex;
+  height: 74px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px 0;
+  gap: 223px;
+}
+
+.top-nav__searchLogin {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.top-nav__login {
+  text-decoration: none;
+  color: #FFB30E;
+  font-weight: 700;
+  padding: 14px 24px;
+  box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26);
+  border-radius: 8px;
+}
+
+.top-nav__login::before {
+  content: url('./images/user.png');
+  margin-right: 8px;
+}
+
+.logo {
+  width: 197px;
+  height: 36.77px;
+  background-image: url('./images/Logo.svg');
+}
+
+.deliverTo {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 700;
+}
+
+.deliverTo__text::after {
+  content: url('./images/Icon.jpg');
+  margin: 0 9px 0 12px;
+}
+
+.deliverTo__current::before {
+  content: ' Current Location ';
+  font-weight: 400;
+}
+
+
+.searchBar::before {
+  content: url('./images/Search.jpg');
+  margin-right: 8px;
+}
+
+.searchBar__input {
+  border: none;
+  width: 98px;
+}
+
+.searchBar__input::placeholder {
+  color: #000;
+  font-weight: 700;
+}
+
+.searchBar__input:focus {
+  outline: none;
+}
+
