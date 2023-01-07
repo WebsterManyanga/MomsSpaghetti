@@ -1,4 +1,5 @@
 import React from 'react';
+import { SearchBar } from '../SearchBar/SearchBar';
 import './TopNav.css';
 
 export const TopNav = () => (
@@ -13,12 +14,7 @@ export const TopNav = () => (
     </span>
   </div>
   <div className="top-nav__searchLogin">
-    <div className="searchBar">
-      <input 
-        type="search" 
-        placeholder='Search Food' 
-        className="searchBar__input" />
-    </div>
+    <SearchBar />
     <a href="#" className="top-nav__login">Login</a>
   </div>
 </nav>
