@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="header">
         <TopNav />
-      </header>
+      </ header>
     </div>
   );
 }
